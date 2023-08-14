@@ -1,0 +1,187 @@
+main{
+    overflow: hidden;
+}
+
+nav{
+    background-color: #ff6633;
+}
+
+nav .navbar-brand{
+    font-size: 70px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    color: white;
+   
+}
+nav .navbar-brand:hover{
+    display: inline-block;
+   
+  
+    animation:rubberBand; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 1s; /* don't forget to set a duration! */
+}
+
+nav .nav-item .nav-link{
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Cabin', sans-serif;
+    text-transform: capitalize;
+    margin: 3px;
+    
+}
+#phone{
+    font-weight: bold;
+    border-radius: 15px;
+    border: solid 3px white;
+    background-color: white;
+    text-align: center;
+padding: 5px 10px;
+margin-right: 5px;
+color:#ff6633 ;
+}
+#card{
+    background-color: white;
+    text-align: center;
+   color: #ff6633;
+    font-weight: bold;
+        border-radius: 15px;
+        border: solid 3px white;
+        padding: 5px 10px;
+        margin-right: 9px;
+        
+}
+#phone:hover{
+    background-color: #ff6633;
+    color: white;
+}
+#card:hover{
+    background-color: #ff6633;
+    color: white;
+}
+nav .nav-item .nav-link:hover{
+ 
+   background-color: #ff531a;
+   border-radius: 10px;
+   border:  1px #ff531a;
+}
+#header{
+    background-image: linear-gradient(#ff6633,#ff531a,#ff4000,#e63900);
+    position: relative;
+    background-size: cover;
+}
+.wave {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.wave svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 69px;
+}
+
+.wave .shape-fill {
+    fill: #FFFFFF;
+}
+header h5{
+    color:#e63900 ;
+    font-family: 'Pacifico', cursive;
+    text-decoration: line-through;
+    margin-top: -40px;
+    
+
+}
+header h2{
+    font-family: 'Pacifico', cursive;
+    color: white;
+    font-weight: bold;
+    font-size: xx-large;
+
+}
+header p{
+    font-size: 13px;
+    color
+    : white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+header a{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+
+}
+#about{
+    background-image: url('../img/background.png');
+   
+}
+#titleabout{
+    background-color: #FFFFFF;
+    padding-bottom: 7px;
+}
+.masthead{
+    background-color: #e63900;
+}
+#mobile{
+    margin-left: 110px;
+    padding-top: 19px;
+    padding-bottom:19px ;
+}
+#carouselExampleDark{
+    padding-top: 17px;
+ margin: 35px;
+}
+#menuimg{
+    border-radius:7px white ;
+}
+#moremenu:hover{
+    background-color:#0f0f0a;
+}
+#choose{
+    padding-top: 20px;
+}
+#star{
+  margin-left: -124px;
+}
+#offercontent{
+    margin-top: -34px;
+   
+}
+#offerbtn:hover{
+background-color: #ff531a;
+
+}
+#pricing{
+    position: relative;
+    background-image: linear-gradient(#ff794d,#ff6633,#ff531a,#ff4000,#e63900,#cc3300,#b32d00, #992600);
+   
+}
+
+.custom-shape-divider-top-1662828045 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1662828045 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 171px;
+}
+
+.custom-shape-divider-top-1662828045 .shape-fill {
+    fill: #FFFFFF;
+}
+
+
+
